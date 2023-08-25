@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple calculator</title>
+    <script>
+
+        var fNumber = +prompt("Enter 1st Number.");
+        var sNumber = +prompt("Enter 2nd Number.");
+        var operation = prompt("Operators( + , - , * , / , % )");
+        var add = fNumber + sNumber;
+        var sub = fNumber - sNumber;
+        var mul = fNumber * sNumber;
+        var div = fNumber / sNumber;
+        var modu = fNumber % sNumber;
+
+        if (operation === "+" || operation === "-" || operation === "*" || operation === "/" || operation === "%") {
+            if (operation === "+") {
+                document.write(fNumber + " + " + sNumber + " = " + add);
+            } else if (operation === "-") {
+                document.write(fNumber + " - " + sNumber + " = " + sub);
+            } else if (operation === "*") {
+                document.write(fNumber + " * " + sNumber + " = " + mul);
+            } else if (operation === "/") {
+                document.write(fNumber + " / " + sNumber + " = " + div);
+            } else if (operation === "%") {
+                document.write(fNumber + " % " + sNumber + " = " + modu);
+            }
+        } else {
+            alert("Please Enter Correct Operators.")
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

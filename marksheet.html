@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Mark sheet</title>
+    <script>
+
+        var sub1Marks = +prompt("Enter 1st subject marks...");
+        var sub2Marks = +prompt("Enter 2nd subject marks...");
+        var sub3Marks = Number(prompt("Enter 3rd subject marks..."));
+        var obtMarks = sub1Marks + sub2Marks + sub3Marks;
+        var totMarks = +prompt("Enter total Marks.");
+        var percentage = obtMarks / totMarks * 100;
+        var remarks = ["Excellant", "Good", "You need to improve", "Sorry"];
+
+        if (percentage <= 100) {
+            document.write("<h1>Marks Sheet</h1>");
+            document.write("Total marks: " + totMarks);
+            document.write("<br>Marks obtained: " + obtMarks);
+            document.write("<br>Percenrage: " + percentage + "%<br>");
+
+            if (percentage >= 80) {
+                document.write("Grade: A-one");
+                document.write("<br>Remarks: " + remarks[0]);
+            } else if (percentage >= 70) {
+                document.write("Grade: A");
+                document.write("<br>Remarks: " + remarks[1]);
+
+            } else if (percentage >= 60) {
+                document.write("Grade: B");
+                document.write("<br>Remarks: " + remarks[2]);
+
+            } else {
+                document.write("Grade: Fail");
+                document.write("<br>Remarks: " + remarks[3]);
+
+            }
+        } else {
+            document.write("Enter correct Input please!");
+        }
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

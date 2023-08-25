@@ -1,0 +1,44 @@
+@media screen and (max-width:600px) {
+
+    .box2 .ass1,
+    .box2 .ass2,
+    .box2 .ass3,
+    .box2 .ass4,
+    .box2 .ass5 {
+        width: 80vw;
+    }
+
+    .chap_head {
+        font-size: 20px;
+    }
+
+
+    .box {
+        margin: 0 auto;
+        width: 50%;
+    }
+
+    .box p {
+        font-size: 1.2em;
+    }
+
+    .box .ass1,
+    .box .ass2,
+    .box .ass3,
+    .box .ass4 {
+        width: 80%;
+    }
+
+    div.portfolio {
+        white-space: nowrap;
+        display: block;
+    }
+
+    .assignment,
+    .cont,
+    .clones {
+        padding: 8px 0;
+        width: 215px;
+        margin: 20px auto;
+    }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age calculator</title>
+    <script>
+        var monthNames = ["January", "february", "March", "April", "May", "June", "July", "August", "Sep", "Oct", "November", "Dec"];
+        var today = new Date();
+        var year = today.getFullYear();
+        var month = today.getMonth();
+        var date = today.getDate();
+        var fullDate = date + " " + monthNames[month] + ", " + year;
+        var user = prompt("Enter Date of birth.", fullDate);
+
+
+        var userDate = new Date(user);
+        var userMilli = userDate.getTime();
+        var milli = today.getTime();
+
+        var diff = milli - userMilli;
+        var age = Math.floor(diff / (1000 * 60 * 60 * 24 * 30 * 12));
+        alert("Your age is " + age + ".");
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Number</title>
+</head>
+<script>
+    var userInp = +prompt("Enter Number 1 to 10...");
+    var myNum = Math.round(Math.random() * 10);
+
+    if (userInp === myNum) {
+        alert("You win.");
+    } else if (userInp + 1 === myNum || userInp - 1 === myNum) {
+        alert("You are so close.My num is: " + myNum);
+    } else {
+        alert("You lost. My num is: " + myNum);
+    }
+</script>
+
+<body>
+
+</body>
+
+</html>

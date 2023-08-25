@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 5</title>
+    <script>
+        document.write("<center>" + "<h1>Assignment 1 (q5)</h1>" + "</center>");
+
+        //   Inputs Subjects / Marks
+        var sub1 = prompt("Enter 1st Subject", "HTML");
+        var sub2 = prompt("Enter 1st Subject", "CSS");
+        var sub3 = prompt("Enter 1st Subject", "JS");
+        var sub1Marks = +prompt("Enter Marks/score '" + sub1 + "'", 88);
+        var sub2Marks = +prompt("Enter Marks/score '" + sub2 + "'", 74);
+        var sub3Marks = +prompt("Enter Marks/score '" + sub3 + "'", 00);
+
+        // totals 
+        var totalMarksPerSubject = 100;
+        var sub1Per = sub1Marks / 100 * 100;
+        var sub2Per = sub2Marks / 100 * 100;
+        var sub3Per = sub3Marks / 100 * 100;
+        var obtMarks = sub1Marks + sub2Marks + sub3Marks;
+        var totalMarks = 300;
+        var totPerc = obtMarks / totalMarks * 100;
+
+        // Subject 1
+        document.write("<b>" + sub1 + "</b>");
+        document.write("<br> Marks = " + sub1Marks);
+        document.write("<br> Percentage = " + sub1Per + "%");
+        document.write("<br>-----------------------<br><br>")
+
+
+        // Subject 2
+        document.write("<b>" + sub2 + "</b>");
+        document.write("<br> Marks = " + sub2Marks);
+        document.write("<br> Percentage = " + sub2Per + "%");
+        document.write("<br>-----------------------<br><br>")
+
+        // Subject 3
+        document.write("<b>" + sub3 + "</b>");
+        document.write("<br> Marks = " + sub3Marks);
+        document.write("<br> Percentage = " + sub3Per + "%");
+
+        document.write("<hr>" + "<b>Obtained Marks</b> = " + obtMarks);
+        document.write("<br><b>Total Marks</b> = " + totalMarks);
+        document.write("<br><b>Percentage<b> = " + totPerc + "%")
+
+
+
+    </script>
+</head>
+
+<body>
+</body>
+
+</html>

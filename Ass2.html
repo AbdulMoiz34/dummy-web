@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 2</title>
+    <script>
+        //  Ass1 part 2
+        document.write("<center>" + "<h1>Assignment 1 (q2)</h1>" + "</center>")
+
+        var a = 2;
+        var b = 1;
+
+        var result = --a - --b + ++b + b--;
+        //   1  -   0 +  1  + 1;
+        //        =  3;
+
+
+        var first = --a;
+        var sec = first - --b;
+        var third = sec + ++b;
+        var four = third + b--;
+
+        document.write("2) &nbsp; If a = 2 & b = 1, so find <br> <i>--a - --b + ++b + b-- = ?.</i> <hr>");
+
+        document.write("--a = " + first + ".<br>");
+        document.write("--a - --b = " + sec + ".<br>");
+        document.write("--a - --b + ++b = " + third + ".<br>");
+        document.write("--a - --b + ++b + b-- = " + four + "." + "<br> <br>");
+
+        document.write("<b>Result:</b>" + " " + four + ".")
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

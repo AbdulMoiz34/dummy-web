@@ -1,0 +1,205 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: radial-gradient(#fff 20%, #d9d9d9 20%);
+    background-size: 15px 15px;
+    margin: 10px 0;
+}
+
+h2 {
+    display: inline-block;
+    margin: 0;
+}
+
+.s-name {
+    text-shadow: 0 0 5px black;
+}
+
+div.container {
+    border: 1px solid black;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+    box-shadow: 1px 1px 7px black;
+    background-color: rgba(203, 153, 126, 0.8);
+    color: white;
+
+}
+
+div.box2 {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div.portfolio {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*                    Header                         */
+
+
+.notice {
+    color: #c34f5a;
+    background-color: #f8d4ba;
+    padding: 10px 5px;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 15px;
+    border-radius: 20px;
+}
+
+.chap_head {
+    text-shadow: 1px 1px 5px #fff;
+    text-align: center;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    background-color: #d48473;
+    padding: 2px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.Btn {
+    text-decoration: none;
+    font-size: 1.5em;
+    padding: 2px 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    background-color: #006d77;
+    color: white;
+}
+
+
+.Btn:hover {
+    background-color: darkgreen;
+}
+
+.btn:hover {
+    background-color: rgb(0, 0, 139);
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+
+.box {
+    margin: 50px auto;
+    width: 80%;
+    text-align: center;
+}
+
+.box p {
+    font-size: 1.3em;
+    white-space: nowrap;
+}
+
+.box .ass1,
+.box .ass2,
+.box .ass3,
+.box .ass4 {
+    display: inline-block;
+    margin: 0 0 1em 1em;
+    padding: 10px 14px;
+    border-radius: 10px 10px;
+    width: 150px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.8);
+    background-color: rgba(204, 213, 174, 0.5);
+}
+
+.assignment,
+.cont,
+.clones {
+    text-align: center;
+    margin: 1.1em 0 10px 0;
+    background-color: rgba(201, 173, 167, 0.5);
+    border-radius: 10px;
+    padding: 14px 25px;
+    height: 125px;
+    box-sizing: border-box;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+
+.portfolio h1 {
+    margin: 0;
+}
+
+.portfolio p {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------------------------------------------------------- */
+
+
+/*                   Assignment 1: style                        */
+
+.box2 .ass1,
+.box2 .ass4 {
+    background-color: #c3a6a0;
+    width: 50vw;
+    padding: 5px 16px;
+    border-radius: 20px 70px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ass4 {
+    margin: 5em 0 0 0;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+
+
+/*                   Assignment 2: style                        */
+
+.box2 .ass2,
+.box2 .ass5 {
+    margin-top: 5em;
+    background-color: #c3a6a0;
+    width: 50vw;
+    padding: 5px 8px;
+    border-radius: 10px 50px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ----------------------------------------------------------------------------------- */
+
+/*                          Assignment 3: style                      */
+
+
+.box2 .ass3 {
+    margin-top: 5em;
+    background-color: #c3a6a0;
+    width: 40vw;
+    padding: 5px 8px;
+    border-radius: 40px;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* ----------------------------------------------------------------------------------- */
